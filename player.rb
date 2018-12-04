@@ -5,8 +5,4 @@ class Player
         @name = name
         @lives = 3
     end
-
-    def lose_life
-        @live -= 1
-    end
 end
